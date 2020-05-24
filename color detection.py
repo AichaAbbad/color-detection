@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread ("shapes.png",1)
+img = cv2.imread ("color-detection/shapes.png",1)
 
 hsv_img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
 
